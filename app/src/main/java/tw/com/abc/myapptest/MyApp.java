@@ -10,7 +10,7 @@ import android.util.Log;
 // extend Application -- 自訂Application
 public class MyApp extends Application{
     public int stage;
-
+    public MainActivity mainActivity;
 
     @Override
     public void onCreate() {
