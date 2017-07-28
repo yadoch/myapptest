@@ -4,7 +4,7 @@ import android.app.Application;
 import android.util.Log;
 
 /**
- * Created by geoff on 2017/7/28.
+ * Created by geoff on 2017/7/28. OK
  */
 
 // extend Application -- 自訂Application
@@ -17,6 +17,6 @@ public class MyApp extends Application{
         super.onCreate();
 
         Log.i("geoff","app: onCreate");
-        stage=1000;
+        stage=0;
     }
 }

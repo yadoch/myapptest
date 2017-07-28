@@ -5,12 +5,14 @@ import android.os.Bundle;
 import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
-
+private MyApp myApp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.i("geoff","Main activity: onClick");
+        myApp=(MyApp)getApplication();
+        Log.i("geoff","Main activity: onCreate:" + myApp.stage);
+
     }
 }
