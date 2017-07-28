@@ -11,6 +11,7 @@ import android.util.Log;
 public class MyApp extends Application{
     public int stage;
     public MainActivity mainActivity;
+    public static String test ="Hello";
 
     @Override
     public void onCreate() {
