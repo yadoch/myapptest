@@ -17,6 +17,6 @@ public class MyApp extends Application{
         super.onCreate();
 
         Log.i("geoff","app: onCreate");
-        stage=10;
+        stage=0;
     }
 }
